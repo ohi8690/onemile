@@ -66,6 +66,7 @@ a,a:link {
 #icon {
     width: 100px;
     float: right;
+    font-size: 0;
 }
 #icon li {
     display: inline-block;
@@ -73,6 +74,9 @@ a,a:link {
 }
 #icon li:hover {
     opacity: 1;
+}
+#icon li:nth-child(2) {
+    margin: 0 3px 0 4px;
 }
 #visual {
     width: 650px;
@@ -89,4 +93,7 @@ a,a:link {
 #visual img:nth-child(2) {
     position: absolute;
     right: 0;
+}
+#specal {
+    
 }
